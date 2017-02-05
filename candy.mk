@@ -18,14 +18,16 @@ TARGET_SCREEN_WIDTH := 720
 
 $(call inherit-product, device/huawei/mt2/full_mt2.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common Candy stuff.
+$(call inherit-product, vendor/candy/config/common_full_phone.mk)
+
+$(call inherit-product, vendor/candy/config/nfc_enhanced.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/huawei/mt2/mt2.mk)
 
 PRODUCT_DEVICE := mt2
-PRODUCT_NAME := lineage_mt2
+PRODUCT_NAME := candy_mt2
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
 	PRODUCT_NAME=MT2L03 \
