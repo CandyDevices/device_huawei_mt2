@@ -10,5 +10,10 @@
   {
     "repository": "android_device_qcom_common",
     "target_path": "device/qcom/common"
+  },
+  {
+    "branch": "c7.1.1",
+    "repository": "CandyDevices/vendor_qcom_binaries",
+    "target_path": "vendor/qcom/binaries"
   }
 ]
