@@ -21,8 +21,6 @@ $(call inherit-product, device/huawei/mt2/full_mt2.mk)
 # Inherit some common Candy stuff.
 $(call inherit-product, vendor/candy/config/common_full_phone.mk)
 
-$(call inherit-product, vendor/candy/config/nfc_enhanced.mk)
-
 # Inherit device configuration
 $(call inherit-product, device/huawei/mt2/mt2.mk)
 
