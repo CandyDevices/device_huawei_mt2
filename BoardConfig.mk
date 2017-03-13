@@ -113,6 +113,9 @@ TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 # Release tools
 TARGET_RELEASETOOLS_EXTENSIONS := device/huawei/mt2
 
+# ROOT
+DEFAULT_ROOT_METHOD := magisk
+
 # SELinux
 -include device/qcom/sepolicy/sepolicy.mk
 BOARD_SEPOLICY_DIRS += device/huawei/mt2/sepolicy
