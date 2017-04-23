@@ -1,6 +1,7 @@
 [
   {
-    "repository": "android_kernel_huawei_msm8928",
+    "branch": "c7.1.1",
+    "repository": "CandyDevices/kernel_huawei_msm8928",
     "target_path": "kernel/huawei/msm8928"
   },
   {
